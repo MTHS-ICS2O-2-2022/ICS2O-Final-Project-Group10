@@ -21,11 +21,11 @@ body{
 }
 
 .right-border {
-    border-right: 0.2em solid indigo;
+    border-right: 2em solid indigo;
 }
 
 .bottom-border {
-    border-bottom: 0.2em solid indigo;
+    border-bottom: 2em solid indigo;
 }
 
 h1{
