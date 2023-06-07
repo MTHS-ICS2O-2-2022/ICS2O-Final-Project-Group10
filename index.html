@@ -10,15 +10,20 @@
   <body>
     <h1>Tic Tac Toe</h1>
     <div id="board">
-        <div data-index="1" class="tile">1</div>
-        <div data-index="2" class="tile">2</div>
-        <div data-index="3" class="tile">3</div>
-        <div data-index="4" class="tile">4</div>
-        <div data-index="5" class="tile">5</div>
-        <div data-index="6" class="tile">6</div>
-        <div data-index="7" class="tile">7</div>
-        <div data-index="8" class="tile">8</div>
-        <div data-index="9" class="tile">9</div>
+        <div data-index="1" class="x-hover tile right-border bottom-border"></div>
+        <div data-index="2" class="o-hover tile right-border bottom-border"></div>
+        <div data-index="3" class="tile bottom-border"></div>
+        <div data-index="4" class="tile right-border bottom-border"></div>
+        <div data-index="5" class="tile right-border bottom-border"></div>
+        <div data-index="6" class="tile bottom-border"></div>
+        <div data-index="7" class="tile right-border"></div>
+        <div data-index="8" class="tile right-border"></div>
+        <div data-index="9" class="tile"></div>
+        <div id="strike" class="strike"></div>
+    </div>
+    <div id="game-over-area" class="hidden">
+      <h2 id=game-over-text>Winner is X</h2>
+      <button id="play-again">Play Again</button>
     </div>
     <script src="./index.js"></script>
   </body>
