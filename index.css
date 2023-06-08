@@ -121,7 +121,6 @@ button{
 
 .x-hover:hover::after{
     content:"X"
-    
 }
 
 .o-hover:hover::after{
