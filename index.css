@@ -101,7 +101,7 @@ h1{
 h2 {
     color: red;
     font-size: 2em;
-    margin-top: 0xp;
+    margin-top: 0px;
 }
 
 button{
@@ -115,6 +115,7 @@ button{
 .hidden{
     display: none;
 }
+
 .visible{
     display: block;
 }
